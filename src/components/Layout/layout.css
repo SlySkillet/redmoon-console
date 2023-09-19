@@ -6,10 +6,21 @@
 
 header {
   height: 100px;
+  display: flex;
 }
 
 nav {
   height: 80px;
+  width: 1000px;
+  justify-self: right;
+  align-self: center;
+  margin: 0px 20px 0px 0px;
+}
+
+header,
+nav {
+  grid-row: 1;
+  grid-column: 1 / 2;
 }
 
 .container {
