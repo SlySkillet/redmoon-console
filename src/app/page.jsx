@@ -1,13 +1,12 @@
+import Layout from "@/components/Layout/Layout";
+import UnderConstruction from "@/components/UnderConstruction";
 
-import Layout from '@/components/Layout/Layout'
-import UnderConstruction from '@/components/UnderConstruction'
-
-const Home =() => {
+const Home = () => {
   return (
-   <Layout>
-      <UnderConstruction/>
-   </Layout>
-  )
-}
+    <Layout>
+      <UnderConstruction />
+    </Layout>
+  );
+};
 
-export default Home
+export default Home;

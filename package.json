@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
     "@prisma/client": "^5.2.0",
@@ -17,6 +18,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "prettier": "^2.7.1",
     "prisma": "^5.2.0"
   }
 }
