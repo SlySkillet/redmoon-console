@@ -1,4 +1,18 @@
 * {
   box-sizing: border-box;
   border: 1px solid red;
+  margin: 0px;
+}
+
+header {
+  height: 100px;
+}
+
+nav {
+  height: 80px;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 100px 100vh 100vh 200px;
 }

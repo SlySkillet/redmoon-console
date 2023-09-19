@@ -1,20 +1,18 @@
-import React from 'react';
-import './layout.css';
-import NavBar from './NavBar';
-import Footer from './Footer';
-import Header from './Header';
+import React from "react";
+import "./layout.css";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
+import Header from "./Header";
 
-const Layout = ({children}) => {
-
-
+const Layout = ({ children }) => {
   return (
-    <>
-        <Header/>
-        <NavBar/>
-            {children}
-        <Footer/>
-    </>
-  )
+    <div className="container">
+      <Header />
+      <NavBar />
+      {children}
+      <Footer />
+    </div>
+  );
 };
 
 export default Layout;
