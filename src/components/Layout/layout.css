@@ -81,3 +81,18 @@ a {
   margin: 0px 0px 0px 90px;
   font-size: 20px;
 }
+
+/* secondary styles */
+
+.secondary {
+  display: grid;
+  grid-template-columns: 150px 1fr 1fr 150px;
+}
+
+.quote {
+  grid-column: 2/4;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 150px 100px 50px 100px;
+}
