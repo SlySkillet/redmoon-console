@@ -4,6 +4,11 @@
   margin: 0px;
 }
 
+.container {
+  display: grid;
+  grid-template-rows: 100px 120vh 120vh 200px;
+}
+
 header {
   height: 100px;
   display: flex;
@@ -11,15 +16,10 @@ header {
 
 nav {
   height: 80px;
-  width: 1000px;
+  width: fit-content;
   justify-self: right;
   align-self: center;
   margin: 0px 20px 0px 0px;
-}
-
-.container {
-  display: grid;
-  grid-template-rows: 100px 120vh 120vh 200px;
 }
 
 header,
@@ -43,4 +43,16 @@ nav {
 footer {
   grid-row: 4;
   background-color: rgb(25, 25, 25);
+}
+
+/* navbar styles */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: white;
+  margin: 0px 20px 0px 20px;
+  font-size: 18px;
 }
