@@ -57,9 +57,10 @@ nav {
 .link {
   color: white;
   margin: 0px 20px 0px 20px;
-  font-size: 22px;
+  font-size: 20px;
   font-family: "Space Grotesk", sans-serif;
   letter-spacing: 0.05em;
+  color: rgb(180, 180, 180);
 }
 
 /* primary styles */
