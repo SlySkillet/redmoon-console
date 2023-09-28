@@ -7,7 +7,7 @@ const Secondary = () => {
         provide junior software engineer candidates that are a cut above."{" "}
       </p>
       <div className="card student-card">
-        <h2 className="card-title">Students</h2>
+        <h2 className="card-title">Apprentices</h2>
         <img
           className="card-image"
           alt="image"
@@ -16,12 +16,11 @@ const Secondary = () => {
           }
         />
         <p className="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
-          labore, officia, unde illo vel odit veniam maxime aperiam enim
-          laboriosam soluta quisquam? Assumenda odio animi aut impedit ea. Cum,
-          fuga.
+          Learn more about what it means to be an apprentice at Red Moon, how to
+          get admitted into the program and what you'll be doing once you're in.
+          Join and work with us to reach your goals in software!
         </p>
-        <button className="card-link">Link</button>
+        <button className="card-link">Learn More</button>
       </div>
       <div className="card employer-card">
         <h2 className="card-title">Employers</h2>
@@ -33,12 +32,12 @@ const Secondary = () => {
           }
         />
         <p className="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
-          labore, officia, unde illo vel odit veniam maxime aperiam enim
-          laboriosam soluta quisquam? Assumenda odio animi aut impedit ea. Cum,
-          fuga.
+          Our apprentices are working on projects in diverse tech stacks. Find
+          out more about their favorite tech stacks, see their portfolios, and
+          learn about their goals in tech. Recruiters, start here to find the
+          next talent for your organization.
         </p>
-        <button className="card-link">Link</button>
+        <button className="card-link">Find Talent</button>
       </div>
     </div>
   );
