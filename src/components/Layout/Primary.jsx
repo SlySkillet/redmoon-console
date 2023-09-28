@@ -8,9 +8,9 @@ const Primary = () => {
           "https://res.cloudinary.com/ddgt67wcb/image/upload/v1695154017/redmoon-logo-cropped_rlj3tq.jpg"
         }
       />
-      <div className="title">
-        <h1>Red Moon</h1>
-        <h1>Software Apprenticeship Program</h1>
+      <div className="title-container">
+        <h1 className="title">Red Moon</h1>
+        <h1 className="title typewriter">Software Apprenticeship Program</h1>
       </div>
     </div>
   );
