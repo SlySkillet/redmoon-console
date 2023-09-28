@@ -4,10 +4,10 @@ import "./layout.css";
 const NavBar = () => {
   return (
     <nav>
-      <a>Login</a>
-      <a>About</a>
-      <a>Apprentices</a>
-      <a>Join</a>
+      <a className="link">Login</a>
+      <a className="link">About</a>
+      <a className="link">Apprentices</a>
+      <a className="link">Join</a>
     </nav>
   );
 };

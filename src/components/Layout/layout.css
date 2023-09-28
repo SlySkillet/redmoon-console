@@ -52,11 +52,14 @@ nav {
   display: flex;
   align-items: center;
 }
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
 
-a {
+.link {
   color: white;
   margin: 0px 20px 0px 20px;
-  font-size: 18px;
+  font-size: 22px;
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: 0.05em;
 }
 
 /* primary styles */
@@ -161,6 +164,8 @@ a {
 
 .card-text {
   margin: 10px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
 }
 
 button.card-link {
